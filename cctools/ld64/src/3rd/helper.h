@@ -12,6 +12,10 @@
 #endif
 #endif
 
+#ifndef __has_extension
+#define __has_extension(x) 0
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif
